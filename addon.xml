@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+ id="script.service.usbspindown"
+    version="1.0.0"
+    name="USBspindown"
+    provider-name="alexroat"
+    >
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.elementtree" version="1.2.8"/>
+    </requires>
+    <extension point="xbmc.service"  library="default.py" start="startup"> </extension>
+    <extension point="xbmc.addon.metadata">
+	<summary lang="en">Turn IDLE USB Disk off</summary>
+	<description lang="en">Turn IDLE USB Disk off.</description>
+	<platform>all</platform>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+	<email>alexroat@gmail.com</email>
+	<disclaimer lang="en">use with kodi XIOS v14 Armv7</disclaimer>
+    </extension>
+</addon>
+
